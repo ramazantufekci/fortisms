@@ -40,7 +40,9 @@ Uygulama için gerekli ayarları içeren JSON dosyasıdır. Örnek:
 
 > ⚠️ `from` alanı, uygulamanın kabul edeceği gönderici domainini belirtir.
 > Bu domain dışında gelen SMTP istekleri reddedilir.
+
 > ⚠️ `allowed_ips` alanı bağlantı yapacak olan smtp server ip adresidir. Eğer belirtmek istemezseniz "0.0.0.0" olarak yazmanız gerekmektedir.
+
 
 ---
 
@@ -65,7 +67,7 @@ docker run -d \
   -v $(pwd)/config.json:/app/config.json \
   -v $(pwd)/app_errors.log:/app/app_errors.log \
   -p 25:25 \
-  fortisms:latest
+  ghcr.io/ramazantufekci/fortisms/fortisms:main
 ```
 
 ### Parametre Açıklamaları
