@@ -1,0 +1,8 @@
+config.json
+app_errors.log
+app
+logs
+.dockerignore
+config.old
+go.mod
+go.mody
