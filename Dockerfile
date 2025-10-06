@@ -1,6 +1,7 @@
 FROM golang:1.25 AS builder
 WORKDIR /app
 COPY . .
+RUN go mod init
 RUN CGO_ENABLED=0 go build -o /fortisms
 
 FROM alpine:3.19
