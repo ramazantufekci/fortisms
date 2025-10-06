@@ -1,0 +1,9 @@
+{
+  "musterno": "123456",
+  "api_id": "api-user",
+  "api_key": "super-secret-key",
+  "sender": "FORTISMS",
+  "ListenPort": 25,
+  "from": "example.com",
+  "allowed_ips": ["1.1.1.1","0.0.0.0"]
+}
