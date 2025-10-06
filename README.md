@@ -11,6 +11,7 @@ Uygulama Docker imajı olarak çalıştırılır ve gelen SMTP isteklerini dinle
 - Docker imajı ile kolay kurulum ve dağıtım
 - JSON tabanlı yapılandırma
 - Log dosyası üzerinden hata takibi
+- Vatansms alt yapısını kullanarak sms atmaktadır.
 
 ---
 
