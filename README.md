@@ -24,6 +24,10 @@ Uygulama Docker imajı olarak çalıştırılır ve gelen SMTP isteklerini dinle
 
 ## ⚙️ Yapılandırma
 
+
+
+Fortigate firewall cihazinda yapilandirmayi yapmak için [Fortigate SMS ile İki Faktörlü Kimlik Doğrulama Yapılandırması](https://www.ramazantufekci.com/fortigate-sms-ile-iki-faktorlu-kimlik-dogrulama-yapilandirmasi/) konulu makaleden yararlanabilirsiniz.
+
 ### `config.json`
 Uygulama için gerekli ayarları içeren JSON dosyasıdır. Örnek:
 
